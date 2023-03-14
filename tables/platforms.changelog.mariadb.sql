@@ -3,7 +3,7 @@
 create table word_of_mouth.platforms
 (
     id      int           not null auto_increment,
-    platform   varchar(256)  null
+    platform   varchar(256)  null,
     constraint platforms_pk
         primary key (id)
 );
@@ -11,6 +11,5 @@ create table word_of_mouth.platforms
 -- changeset jesse:2
 create table stage.platforms
 (
-    platform   varchar(256)  null,
-    summary varchar(4096) null
+    platform   varchar(256)  null
 );
