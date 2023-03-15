@@ -3,7 +3,7 @@ The purpose of this project is to create and manage the database for the Word of
 
 To use this project you'll need to install Liquibase and MariaDB.
 Once you have those installed you can create a liquibase.properties file in the root of the project with the following
-paramters:
+parameters:
 
 ```
 # Enter the path for your changelog file.
